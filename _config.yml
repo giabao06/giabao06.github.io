@@ -1,6 +1,6 @@
 # main text of home
 title: giabao06
-bio: Vietnamese student, programmer and IT person
+bio: Vietnamese student, programmer and IT guy
 
 # twitter summary info
 description: giabao06's website, contains CVs.
@@ -16,9 +16,9 @@ dark-theme: auto
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: false
-resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume: true
+resume-external: false
+resume-url: /cv/
 
 url: https://giabao06.github.io/
 # your url: https://USERNAME.github.io
@@ -44,7 +44,7 @@ email: giabao.nguyenpham@e.email
 authors:
   giabao06:
     name: giabao06
-    bio: Vietnamese student, programmer and IT person
+    bio: Vietnamese student, programmer and IT guy
     external-image: false
     picture: assets/images/profile.png
     twitter: giabao06
