@@ -39,7 +39,7 @@ twitter: giabao06_
 instagram: giabao06_
 #linkedin: mylinkedin
 github: giabao06
-email: myemail@gmail.com
+email: giabao.nguyenpham@e.email
 
 authors:
   giabao06:
@@ -64,11 +64,11 @@ pagination:
   permalink: "/:num/" # pagination link that will be appended
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+#projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
-blog: true
+#blog: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
