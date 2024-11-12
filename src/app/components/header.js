@@ -26,7 +26,7 @@ export default function Header() {
             <div className={"hero-content flex-col lg:flex-row-reverse pt-1 pb-1"}>
                 <Profile />
                 <div>
-                    <p className={"text-3xl font-bold pt-1"}>hello! I&aposm Bảo</p><br/>
+                    <p className={"text-3xl font-bold pt-1"}>hello! I&apos;m Bảo</p><br/>
                     <p className={""}>
                         Currently an IT student @ RMIT University Vietnam.
                         <br/>Languages: 🇻🇳/🇺🇸/🇫🇷 =&gt; 🆗 | 🇯🇵/🇩🇪 =&gt; 📖</p>
