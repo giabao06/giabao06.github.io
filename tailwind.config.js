@@ -10,6 +10,10 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        discord: '#5865f2',
+        bsky: '#1185fe',
+        discordb: '#6d79ff',
+        bskyb: "#5baaff"
       },
     },
   },

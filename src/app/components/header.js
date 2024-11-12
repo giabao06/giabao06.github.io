@@ -5,7 +5,7 @@ import Image from "next/image";
 
 function Profile(){
     return(
-        <div className="max-w-sm rounded-lg shadow-2xl">
+        <div className="max-w-sm rounded-lg shadow-2xl pt-2">
         <div className={"avatar"}>
             <div className={"rounded"}>
                 <Image
@@ -23,13 +23,13 @@ function Profile(){
 export default function Header() {
     return (
         <section className={"hero bg-base-200 min-w-screen"}>
-            <div className={"hero-content flex-col lg:flex-row-reverse"}>
+            <div className={"hero-content flex-col lg:flex-row-reverse pt-1 pb-1"}>
                 <Profile />
                 <div>
-                    <p className={"py-6"}>
-                        <h1 className={"text-3xl font-bold"}>hello! I'm Bảo</h1><br/>
-                    Currently an IT student @ RMIT University Vietnam.
-                    <br/>Languages: 🇻🇳/🇺🇸/🇫🇷 =&gt; 🆗 | 🇯🇵/🇩🇪 =&gt; 📖</p>
+                    <p className={"text-3xl font-bold pt-1"}>hello! I'm Bảo</p><br/>
+                    <p className={""}>
+                        Currently an IT student @ RMIT University Vietnam.
+                        <br/>Languages: 🇻🇳/🇺🇸/🇫🇷 =&gt; 🆗 | 🇯🇵/🇩🇪 =&gt; 📖</p>
                 </div>
             </div>
         </section>
