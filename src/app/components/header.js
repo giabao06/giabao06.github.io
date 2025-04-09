@@ -9,7 +9,7 @@ function Profile(){
         <div className={"avatar"}>
             <div className={"rounded"}>
                 <Image
-                    src="https://github.com/giabao06.png"
+                    src="https://github.com/giabao06.png?size=110"
                     width="110"
                     height="110"
                     alt={"Profile"}
