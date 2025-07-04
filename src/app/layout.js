@@ -10,9 +10,10 @@ const inconsolata = Inconsolata({
 const quicksand = Quicksand({
     subsets: ['latin', 'vietnamese'],
     display: 'swap',
+    weight: "400"
 })
 
-const roboto_slab = Roboto_Slab({
+const robotoSlab = Roboto_Slab({
     subsets: ['latin', 'vietnamese'],
     display: 'swap',
 })
@@ -29,7 +30,7 @@ export default function RootLayout({ children }) {
           <title>some stuff about giabao06</title>
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
-      <body className={`${inconsolata.className}`} data-theme="coffee">
+      <body data-theme="coffee">
         <Navbar/>
         <div className={"grid min-h-screen"}>
             {children}
