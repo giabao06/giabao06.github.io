@@ -31,7 +31,9 @@ export default function RootLayout({ children }) {
       </head>
       <body className={`${inconsolata.className}`} data-theme="coffee">
         <Navbar/>
-        {children}
+        <div className={"grid min-h-screen"}>
+            {children}
+        </div>
       </body>
     </html>
   );
