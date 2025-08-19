@@ -13,9 +13,9 @@ const incons = Inconsolata({
 })
 export default function Page(){
     return (
-        <div className="items-center justify-items-center p-8  mr-auto ml-auto">
+        <div className="items-center justify-items-center p-8 pr-auto pl-auto">
             <div className={"pb-3 text-center"}>
-                <h1 className={`${robotoSlab.className} antialiased font-black text-3xl pb-3 text-center`}>Current Projects</h1>
+                <h1 className={`${robotoSlab.className} antialiased font-black text-3xl pb-3`}>Current Projects</h1>
                 <p>Here&apos;s a list of whatever IT projects I have done and am currently doing.</p>
             </div>
             <div className={"pb-3 pt-2"}>
