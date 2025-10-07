@@ -2,6 +2,7 @@ import "./globals.css";
 import { Inconsolata, Quicksand, Roboto_Slab } from "next/font/google";
 import Navbar from "./components/navbar";
 
+
 const inconsolata = Inconsolata({
     subsets: ['latin', 'vietnamese'],
     display: 'swap',
@@ -25,14 +26,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" data-theme="dim">
       <head>
           <title>some stuff about giabao06</title>
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
-      <body data-theme="coffee">
+      <body>
         <Navbar/>
-        <div className={"grid min-h-screen"}>
+        <div className={"grid min-h-screen bg-base-300"}>
             {children}
         </div>
       </body>
