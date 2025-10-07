@@ -6,6 +6,10 @@ const nextConfig = {
                 protocol: 'https',
                 hostname: 'github.com',
                 port: ''
+            }, {
+                protocol: 'https',
+                hostname: 'dreamchasers.akvns.org',
+                port: ''
             }
         ]
     },

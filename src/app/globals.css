@@ -18,6 +18,8 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Quicksand, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 @layer utilities {
